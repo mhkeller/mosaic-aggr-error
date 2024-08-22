@@ -44,16 +44,16 @@ export default async function loadChart() {
 				vg.margins({ left: 35, top: 20, right: 1 }),
 				vg.width(570),
 				vg.height(350)
-			),
-			vg.vspace(5),
-			vg.table({
-				from: 'athletes',
-				maxWidth: 570,
-				height: 250,
-				filterBy: $query,
-				columns: ['name', 'nationality', 'sex', 'height', 'weight', 'sport'],
-				width: { name: 180, nationality: 100, sex: 50, height: 50, weight: 50, sport: 100 }
-			})
+			)
+			// vg.vspace(5),
+			// vg.table({
+			// 	from: 'athletes',
+			// 	maxWidth: 570,
+			// 	height: 250,
+			// 	filterBy: $query,
+			// 	columns: ['name', 'nationality', 'sex', 'height', 'weight', 'sport'],
+			// 	width: { name: 180, nationality: 100, sex: 50, height: 50, weight: 50, sport: 100 }
+			// })
 		)
 	);
 }
