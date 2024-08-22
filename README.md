@@ -1,4 +1,4 @@
-Mosaic aggregation bug
+Mosaic aggregation error
 ===
 
 > Per https://github.com/uwdata/mosaic/issues/487
