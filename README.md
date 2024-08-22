@@ -24,3 +24,5 @@ REQUEST 3.5
 3. `npm run dev`
 4. Navigate to [http://localhost:5173/](http://localhost:5173/)
 5. Mouse over the chart area and you'll see the error in the console
+
+The chart is defined in [`src/lib/athletesCharts.js`](src/lib/athletesChart.js).
