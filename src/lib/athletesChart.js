@@ -40,8 +40,8 @@ export default async function loadChart() {
 				// 	opacity: 0.1
 				// }),
 				vg.regressionY(vg.from('athletes', { filterBy: $query }), {
-					// x: 'weight', // hardcoding the columns works just fine
-					// y: 'height', // hardcoding the columns works just fine
+					// x: 'height', // hardcoding the columns works just fine
+					// y: 'weight', // hardcoding the columns works just fine
 					x: vg.sql`${$x}`,
 					y: vg.sql`${$y}`,
 					stroke: 'sex'

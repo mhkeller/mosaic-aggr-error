@@ -1,6 +1,8 @@
 Mosaic aggregation bug
 ===
 
+> Per https://github.com/uwdata/mosaic/issues/487
+
 ## Description
 
 When using dynamic column name assignments, the addition of the `regressionY` element throws an error when the user hovers or tries to brush.
@@ -26,3 +28,5 @@ REQUEST 3.5
 5. Mouse over the chart area and you'll see the error in the console
 
 The chart is defined in [`src/lib/athletesCharts.js`](src/lib/athletesChart.js).
+
+Everything works fine if the columns are hardcoded. 
